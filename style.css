@@ -1,0 +1,64 @@
+/* Remove the default styling */
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    background-color: #222429;
+    color: white;
+}
+.header > .left{
+    background-color: #fb5b21;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* padding: 3rem; */
+    font-size: 2rem;
+}
+.header > .right{
+    display: flex;
+    flex-direction: column;
+}
+
+.header > .right > .top{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    color: #686a6f;
+    padding: .4rem;
+}
+.header > .right > .top > p:nth-child(2){
+    margin-left: 34rem;
+    
+}
+.header > .right > .top > p > i{
+    color: #fb5b21;
+    padding-right: .8;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    background-color: #111111;
+}
+.bottom > .bottom-left{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.bottom > .bottom-left > li{
+    padding: 1rem;
+}
+.bottom > .bottom-right{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.bottom > .bottom-right > i{
+    padding: 10px 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
