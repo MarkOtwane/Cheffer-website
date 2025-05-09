@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* padding: 3rem; */
+    padding: 3rem;
     font-size: 2rem;
 }
 .header > .right{
@@ -47,6 +47,7 @@
     display: flex;
     list-style: none;
     justify-content: space-between;
+    margin: 3rem;
 }
 .bottom > .bottom-left > li{
     padding: 1rem;
