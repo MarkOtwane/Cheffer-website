@@ -6,6 +6,7 @@
 body{
     background-color:  #686a6f;
 }
+/* Header stylings */
 .header{
     display: flex;
     background-color: #222429;
@@ -69,4 +70,45 @@ body{
     padding: 10px 10px;
     border: 1px solid white;
     border-radius: 50%;
+}
+
+/* End of header stylings */
+/* Styling the text or rather the h1 content */
+.text{
+    h1{
+        font-size: 7rem;
+        color: rgba(245, 245, 245, 0.747);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+    }
+}
+/* End of the text styling */
+
+/* Container Styling */
+.container{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 3rem;
+    align-items: center;
+    background-color: green;
+    img{
+        width: 25rem;
+        border-radius: 8px;
+    }
+    .left, .right{
+        margin-top: -1.6rem;        
+    }
+    .left{
+        gap: 4rem;
+    }
+    .left > .bottom-content > p{
+        padding-top: .4rem;
+    }
+    .right > .text > p{
+        padding-bottom: 1.2rem;
+    }
 }
