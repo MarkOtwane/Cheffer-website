@@ -166,3 +166,35 @@ body{
     }
 }
 /* End of about section styling */
+
+.numbers{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    div{
+        display: flex;
+        gap: 1rem;
+        margin: 1rem;
+        .icon{
+            background-color: rgb(37, 35, 35);
+            border-radius: 100%;
+            width: 80px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            i{
+                font-size: 3rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: orangered;
+            }
+        }
+        .text1{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
